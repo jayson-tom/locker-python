@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+
+    <!--设置主页 -->
+    <activity name = "SettingsActivity"><!--activity名称-->
+
+        <element name="App">
+            <name>App</name>
+            <type>ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>img_more</pathvalue>
+        </element>
+
+        <element name="Home">
+            <name>Home</name>
+            <type>ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>img_home</pathvalue>
+        </element>
+
+        <element name="Wallpaper">
+            <name>Wallpaper</name>
+            <type>ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>img_wallpaper</pathvalue>
+        </element>
+        
+        <element name="Style">
+            <name>Style</name>
+            <type>ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>img_theme</pathvalue>
+        </element>
+
+        <element name="Security">
+            <name>Security</name>
+            <type>ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>img_unlock</pathvalue>
+        </element>
+
+    </activity>
+
+</page>
