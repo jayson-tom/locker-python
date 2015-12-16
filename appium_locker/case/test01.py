@@ -33,7 +33,7 @@ class Test01(unittest.TestCase):
 			Element('SettingsActivity', 'Style').click()
 		time.sleep(1)
 
-	def test_case04(self):
+	def test_case05(self):
 		if Element('SettingsActivity', 'Security').is_exists():
 			Element('SettingsActivity', 'Security').click()
 		time.sleep(1)
