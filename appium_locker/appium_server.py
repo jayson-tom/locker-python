@@ -50,6 +50,3 @@ class AppiumServer(object):
 # if __name__ == '__main__':
 # appium_server = AppiumServer()
 # appium_server.start_server()
-# 	print appium_server.is_running()
-# 	appium_server.restart_server()
-# 	print appium_server.is_running()
