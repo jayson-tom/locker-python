@@ -43,5 +43,10 @@ class Test01(unittest.TestCase):
 			Element('SettingsActivity', 'Home').click()
 		time.sleep(1)
 
+	def test_case07(self):
+		if Element('SettingsActivity', 'Wallpaper').is_exists():
+			Element('SettingsActivity', 'Wallpaper').click()
+		time.sleep(1)
+
 	def tearDown(self):
 		pass
