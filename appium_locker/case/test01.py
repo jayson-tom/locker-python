@@ -38,5 +38,10 @@ class Test01(unittest.TestCase):
 			Element('SettingsActivity', 'Security').click()
 		time.sleep(1)
 
+	def test_case06(self):
+		if Element('SettingsActivity', 'Home').is_exists():
+			Element('SettingsActivity', 'Home').click()
+		time.sleep(1)
+
 	def tearDown(self):
 		pass
